@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>My Styled Webpage</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:linear-gradient(lightblue,white);
+}
+
+header{
+    background:navy;
+    color:white;
+    text-align:center;
+    padding:20px;
+    text-shadow:2px 2px 4px gray;
+}
+
+nav{
+    background:#333;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.container{
+    display:flex;
+    justify-content:space-around;
+    margin:30px;
+}
+
+.card{
+
+    width:250px;
+    background:white;
+    border:2px solid gray;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:5px 5px 10px gray;
+}
+
+button{
+
+    background:green;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+
+}
+
+button:hover{
+
+    background:red;
+    cursor:pointer;
+
+}
+
+footer{
+
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>My Styled Webpage</h1>
+
+</header>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+
+</nav>
+
+<center>
+
+<canvas id="myCanvas" width="500" height="250" style="border:1px solid black;"></canvas>
+
+</center>
+
+<script>
+
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+
+ctx.fillStyle="blue";
+ctx.fillRect(20,20,120,70);
+
+ctx.beginPath();
+ctx.arc(220,60,40,0,2*Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(300,20);
+ctx.lineTo(450,120);
+ctx.stroke();
+
+ctx.font="24px Arial";
+ctx.fillText("Sai Shishir",150,180);
+
+</script>
+
+<div class="container">
+
+<div class="card">
+
+<h2>HTML</h2>
+
+<p>HTML is used to create webpages.</p>
+
+<button>Read More</button>
+
+</div>
+
+<div class="card">
+
+<h2>CSS</h2>
+
+<p>CSS is used to style webpages.</p>
+
+<button>Read More</button>
+
+</div>
+
+<div class="card">
+
+<h2>JavaScript</h2>
+
+<p>JavaScript makes webpages interactive.</p>
+
+<button>Read More</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>Designed by Sai Shishir</p>
+
+</footer>
+
+</body>
+
+</html>
