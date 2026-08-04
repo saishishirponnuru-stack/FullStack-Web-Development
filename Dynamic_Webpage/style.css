@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+button{
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+h1{
+    color: darkblue;
+}
