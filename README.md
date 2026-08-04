@@ -1,0 +1,2 @@
+﻿# FullStack-Web-Development
+A beginner-friendly HTML and CSS project demonstrating basic web page structure, styling, and commonly used HTML tags.
