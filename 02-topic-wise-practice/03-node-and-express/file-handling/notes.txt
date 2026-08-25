@@ -1,0 +1,2 @@
+Hello! This is my Node.js file handling program.
+I am learning file handling using the fs module.
