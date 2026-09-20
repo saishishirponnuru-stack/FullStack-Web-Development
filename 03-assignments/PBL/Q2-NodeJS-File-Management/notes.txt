@@ -1,0 +1,2 @@
+I am learning Node.js file handling.
+This is additional content.
